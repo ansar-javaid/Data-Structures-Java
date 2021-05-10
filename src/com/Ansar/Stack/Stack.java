@@ -3,6 +3,7 @@ package com.Ansar.Stack;
 import com.Ansar.SinglyLinkedList.SinglyLinkedList;
 
 /**
+ * Stack First In Last Out -FILO .
  * Here we can use any kind of data type ie. Students, String , Integer.
  * you just have to provide Datatype in <> like Stack< Students> or Node< String>
  * @param <DataType>

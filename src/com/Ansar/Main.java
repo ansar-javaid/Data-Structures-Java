@@ -1,27 +1,23 @@
 package com.Ansar;
 
-import com.Ansar.SinglyLinkedList.SinglyLinkedList;
-import com.Ansar.Stack.Stack;
+import com.Ansar.Queue.Queue;
 
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        Stack<String> stack=new Stack<>();
-        System.out.println(stack.Size());
-        System.out.println(stack.empty());
-        stack.push("Ansar-0");
-        stack.push("Ansar-1");
-        stack.push("Ansar-2");
-//        stack.push("Ansar-3");
-//        stack.push("Ansar-4");
-//        stack.push("Ansar-5");
-        System.out.println(stack.empty());
-        System.out.println(stack.peek());
-
-
+        // write your code here
+        Queue<String> queue = new Queue<>();
+        queue.enqueue("Ansar-0");
+        queue.enqueue("Ansar-1");
+        queue.enqueue("Ansar-2");
+        queue.enqueue("Ansar-3");
+        System.out.println(queue.Size());
+        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
+        System.out.println(queue.Size());
 
 
     }
-
 }
