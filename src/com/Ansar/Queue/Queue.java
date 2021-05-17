@@ -1,7 +1,6 @@
 package com.Ansar.Queue;
 
 import com.Ansar.SinglyLinkedList.SinglyLinkedList;
-import com.Ansar.Stack.Stack;
 
 import java.util.NoSuchElementException;
 
